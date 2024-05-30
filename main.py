@@ -1,5 +1,3 @@
-# Afinity API Server
-
 # Server Imports
 from flask import Flask, g, jsonify
 from flask_cors import CORS
