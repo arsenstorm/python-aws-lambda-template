@@ -6,6 +6,8 @@ provider:
   stage: prod
   region: eu-west-2
   environment:
+    DEPLOYED_ON_AWS: true
+    
     OPENAI_API_KEY: ${env:OPENAI_API_KEY}
 
     # add any other environment variables here
